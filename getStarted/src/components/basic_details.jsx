@@ -60,7 +60,12 @@ const Basic_details = () => {
                         <div className='symbol'>H</div>
                         <div className='heading'><p>Highlighted features</p></div>
                     </div>
-                    <p>22,400</p>
+                    <div id='features'>
+                        <p>2 revisions</p>
+                        <p>24*7 Support</p>
+                        <p>Delivery in 2 days</p>
+                        <p>Post service</p>
+                    </div>
                 </div>
 
                 <div className='detail-content full-width'>
@@ -68,7 +73,14 @@ const Basic_details = () => {
                         <div className='symbol'>I</div>
                         <div className='heading'><p>All details</p></div>
                     </div>
-                    <p>22,400</p>
+                    <div className='details'>
+                        <div className='detail-card'><p>We will give you the support whenever it is needed even after 30 days</p></div>
+                        <div className='detail-card'><p>We will give you the support whenever it is needed even after 30 days</p></div>
+                    </div>
+                    <div id='btn-box'>
+                        <p>Download/Brochure</p>
+                        <button id='download'>download</button>
+                    </div>
                 </div>
             </div>
         </div>
