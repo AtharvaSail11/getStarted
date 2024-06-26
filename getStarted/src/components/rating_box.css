@@ -1,0 +1,43 @@
+.rating-container{
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    width:350px;
+    border:2px solid blue;
+}
+
+#heading{
+    flex-basis: 40%;
+    border:1px solid black;
+}
+
+.rating-items{
+    display: flex;
+    height: 20%;
+    border:1px solid black;
+}
+
+#ratings{
+    flex-direction: column;
+}
+
+#ratings p{
+    position: relative;
+    bottom: 20px;
+}
+
+#stars{
+    position:relative;
+    bottom: 40px;
+}
+
+.header-items{
+    display:flex;
+    margin-left: 10px;
+    align-items: center;
+}
+
+.box{
+    display: flex;
+    border:2px solid black;
+}

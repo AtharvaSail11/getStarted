@@ -1,0 +1,52 @@
+#detail-container{
+    height: auto;
+    width:100%;
+    border:2px solid blue;
+}
+
+.detail-sections{
+    display: grid;
+    grid-template-columns: auto auto;
+    row-gap: 10px;
+    height: auto;
+    width:95%;
+    border:2px solid green;
+}
+.detail-content{
+    display:flex;
+    border:2px solid black;
+    height: auto;
+    flex-direction: column;
+}
+
+.detail-content p{
+    margin-top:auto;
+    margin-bottom: auto;
+}
+
+.detail-heading{
+    display: flex;
+    align-items: center;
+    height: auto;
+    border:1px solid blue;
+}
+
+.symbol{
+    height: 20px;
+    width:20px;
+    border:2px solid black;
+}
+
+.heading{
+    height: auto;
+    border: 1px solid black;
+}
+
+.heading p{
+    margin: auto;
+}
+
+.full-width{
+    grid-column-start: 1;
+    grid-column-end: 3;    
+}
