@@ -1,5 +1,15 @@
 import react from 'react'
 import './basic_details.css'
+import calendar from './assets/calendar.png'
+import experience from './assets/experience.png'
+import money from './assets/money.png'
+import communication from './assets/247hr-communication.png'
+import service from './assets/service.png'
+import ratio from './assets/ratio.png'
+import timeline from './assets/refresh-time.png'
+import features from './assets/new-features.png'
+import report from './assets/report.png'
+
 
 const Basic_details = () => {
     return (
@@ -8,56 +18,56 @@ const Basic_details = () => {
             <div className='detail-sections'>
                 <div className='detail-content'>
                     <div className='detail-heading'>
-                        <div className='symbol'>A</div>
+                        <div className='symbol'><img className='image' src={money} /></div>
                         <div className='heading'><p>Price</p></div>
                     </div>
                     <p>22,400</p>
                 </div>
                 <div className='detail-content'>
                     <div className='detail-heading'>
-                        <div className='symbol'>B</div>
+                        <div className='symbol'><img className='image' src={calendar} /></div>
                         <div className='heading'><p>Start date</p></div>
                     </div>
                     <p>22,400</p>
                 </div>
                 <div className='detail-content'>
                     <div className='detail-heading'>
-                        <div className='symbol'>C</div>
+                        <div className='symbol'><img className='image' src={service} /></div>
                         <div className='heading'><p>Post service</p></div>
                     </div>
                     <p>22,400</p>
                 </div>
                 <div className='detail-content'>
                     <div className='detail-heading'>
-                        <div className='symbol'>D</div>
+                        <div className='symbol'><img className='image' src={timeline} /></div>
                         <div className='heading'><p>Timeline</p></div>
                     </div>
                     <p>22,400</p>
                 </div>
                 <div className='detail-content'>
                     <div className='detail-heading'>
-                        <div className='symbol'>E</div>
+                        <div className='symbol'><img className='image' src={communication} /></div>
                         <div className='heading'><p>Post service (If answer was yes)</p></div>
                     </div>
                     <p>22,400</p>
                 </div>
                 <div className='detail-content'>
                     <div className='detail-heading'>
-                        <div className='symbol'>F</div>
+                        <div className='symbol'><img className='image' src={experience} /></div>
                         <div className='heading'><p>Experience of partner</p></div>
                     </div>
                     <p>22,400</p>
                 </div>
                 <div className='detail-content full-width'>
                     <div className='detail-heading'>
-                        <div className='symbol'>G</div>
+                        <div className='symbol'><img className='image' src={ratio} /></div>
                         <div className='heading'><p>Payment ratio</p></div>
                     </div>
                     <p>22,400</p>
                 </div>
                 <div className='detail-content full-width'>
                     <div className='detail-heading'>
-                        <div className='symbol'>H</div>
+                        <div className='symbol'><img className='image' src={features} /></div>
                         <div className='heading'><p>Highlighted features</p></div>
                     </div>
                     <div id='features'>
@@ -70,7 +80,7 @@ const Basic_details = () => {
 
                 <div className='detail-content full-width'>
                     <div className='detail-heading'>
-                        <div className='symbol'>I</div>
+                        <div className='symbol'><img className='image' src={report} /></div>
                         <div className='heading'><p>All details</p></div>
                     </div>
                     <div className='details'>
