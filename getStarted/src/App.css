@@ -2,17 +2,18 @@
   display:flex;
   flex-direction: column;
   align-items: center;
-  background-image: linear-gradient(90deg,#e5ecff,#f4f5f6);
   height: 100vh;
   width:100vw;
 }
 
 nav{
   display: flex;
+  position: relative;
   align-items: center;
   justify-content: space-between;
   height:80px;
-  width:100%;
+  width:99%;
+  right: 5px;
   border-bottom: 2px solid rgb(185, 184, 184);
 }
 
@@ -35,7 +36,6 @@ nav{
 
 #content{
   display:grid;
-  border:2px solid purple;
   grid-template-columns: 70vw 30vw;
 }
 
