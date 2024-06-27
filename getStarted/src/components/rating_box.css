@@ -1,6 +1,7 @@
 .rating-container{
     display: flex;
     flex-direction: column;
+    border-bottom: 2px solid grey;
     height: 200px;
     width:350px;
 }
@@ -21,33 +22,41 @@
 #ratings p{
     position: relative;
     bottom: 20px;
+    left: 5px;
 }
 
 #stars{
     position:relative;
+    width: 40%;
     bottom: 40px;
 }
 
 .header-items{
     display:flex;
+    position: relative;
     margin-left: 10px;
+    margin-right: 10px;
+    right: 5px;
     align-items: center;
+    cursor: pointer;
 }
 
 .box{
     display: flex;
+    height: 20px;
+    width:20px;
 }
 
 .rating-item{
     display: flex;
     align-items: center;
     margin: 5px;
-    border:2px solid black;
 }
 
 .icons{
     height: 20px;
     background-color: rgb(26, 26, 26);
+    margin-right: 5px;
     border-radius: 5px;
     width:20px;
 }
@@ -56,4 +65,8 @@
     height:80%;
     width: 80%;
     margin-left: 2px;
+}
+
+.active{
+    border-bottom: 2px solid blue;
 }

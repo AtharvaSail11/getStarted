@@ -10,7 +10,6 @@ import timeline from './assets/refresh-time.png'
 import features from './assets/new-features.png'
 import report from './assets/report.png'
 
-
 const Basic_details = () => {
     return (
         <div id='detail-container'>
@@ -78,7 +77,7 @@ const Basic_details = () => {
                     </div>
                 </div>
 
-                <div className='detail-content full-width'>
+                <div className='detail-content full-width' id='detail'>
                     <div className='detail-heading'>
                         <div className='symbol'><img className='image' src={report} /></div>
                         <div className='heading'><p>All details</p></div>
