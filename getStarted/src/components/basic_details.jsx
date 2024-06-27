@@ -27,42 +27,42 @@ const Basic_details = () => {
                         <div className='symbol'><img className='image' src={calendar} /></div>
                         <div className='heading'><p>Start date</p></div>
                     </div>
-                    <p>22,400</p>
+                    <p>24 Feb 2024</p>
                 </div>
                 <div className='detail-content'>
                     <div className='detail-heading'>
                         <div className='symbol'><img className='image' src={service} /></div>
                         <div className='heading'><p>Post service</p></div>
                     </div>
-                    <p>22,400</p>
+                    <p>Yes</p>
                 </div>
                 <div className='detail-content'>
                     <div className='detail-heading'>
                         <div className='symbol'><img className='image' src={timeline} /></div>
                         <div className='heading'><p>Timeline</p></div>
                     </div>
-                    <p>22,400</p>
+                    <p>24 Jan 2024 to 24 Feb 2024</p>
                 </div>
                 <div className='detail-content'>
                     <div className='detail-heading'>
                         <div className='symbol'><img className='image' src={communication} /></div>
                         <div className='heading'><p>Post service (If answer was yes)</p></div>
                     </div>
-                    <p>22,400</p>
+                    <p>30 Days</p>
                 </div>
                 <div className='detail-content'>
                     <div className='detail-heading'>
                         <div className='symbol'><img className='image' src={experience} /></div>
                         <div className='heading'><p>Experience of partner</p></div>
                     </div>
-                    <p>22,400</p>
+                    <p>7 Years</p>
                 </div>
                 <div className='detail-content full-width'>
                     <div className='detail-heading'>
                         <div className='symbol'><img className='image' src={ratio} /></div>
                         <div className='heading'><p>Payment ratio</p></div>
                     </div>
-                    <p>22,400</p>
+                    <p>50-20-30</p>
                 </div>
                 <div className='detail-content full-width'>
                     <div className='detail-heading'>

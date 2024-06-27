@@ -67,6 +67,7 @@ nav{
   justify-content: center;
   align-items: center;
   border-radius: 15px;
+  background-color: white;
   border:2px solid blue;
 }
 
