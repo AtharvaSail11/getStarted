@@ -1,7 +1,9 @@
 import Pm_summary from './components/pm_summary'
 import Rating_box from './components/rating_box'
 import Basic_details from './components/basic_details'
+import bizowl_logo from './components/assets/bizowl_logo.png'
 import './App.css'
+import call_logo from './components/assets/Vector-1.png'
 
 function App() {
 
@@ -9,11 +11,11 @@ function App() {
       <div className='app'>
         <nav>
           <div id='logo'>
-              <h2>bizowl</h2>
+              <img id='logo-text' src={bizowl_logo} />
           </div>
 
           <div id='need-help'>
-            <h3>need help?</h3>
+          <div className='call-logo'><img src={call_logo}/></div><p>need help?</p>
           </div>
         </nav>
 
