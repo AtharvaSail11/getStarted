@@ -87,7 +87,7 @@ const Basic_details = () => {
                     </div>
                     <div id='btn-box'>
                         <p>Download/Brochure</p>
-                        <button id='download'>download</button>
+                        <button id='download'>Download</button>
                     </div>
                 </div>
             </div>

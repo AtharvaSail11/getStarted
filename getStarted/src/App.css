@@ -3,6 +3,7 @@
   position: relative;
   flex-direction: column;
   align-items: center;
+  font-family: 'Cabin';
   height: 100vh;
   width:98.5vw;
 }
@@ -65,8 +66,6 @@ nav{
   grid-template-columns: 70vw 30vw;
 }
 
-
-
 #section1{
   display: flex;
   margin-top: 20px;
@@ -76,8 +75,9 @@ nav{
 #logo-box{
     display: flex;
     height: 200px;
-    width:350px;
-    border:2px solid blue;
+    width:300px;
+    border:3px solid #007CFF;
+    background-color: #cbe3fd;
     justify-content: center;
     align-items: center;
     border-radius: 15px;
@@ -88,16 +88,19 @@ nav{
 #logo-item{
   display: flex;
   height: 50%;
-  width:50%; 
+  width:60%; 
   justify-content: center;
+  font-size: 40px;
+  letter-spacing: 5px;
+  font-weight: bold;
   align-items: center;
   border-radius: 15px;
-  background-color: white;
-  border:2px solid blue;
+  background-color: #F7FCFB;
+  border:2px solid #007CFF;
 }
 
 #X{
-  color: blue;
+  color: #007CFF;
 }
 
 

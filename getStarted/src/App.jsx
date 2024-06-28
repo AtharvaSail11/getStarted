@@ -23,7 +23,7 @@ function App() {
         <div id='section1'>
           <div id='logo-box'>
               <div id='logo-item'>
-                  <h1>W<span id='X'>X</span>T</h1>
+                  <p>W<span id='X'>X</span>T</p>
               </div>
           </div>
           <Rating_box/>

@@ -26,7 +26,7 @@ const Pm_summary=()=>{
             <div className='summary-item2'><h3>₹2,309/-</h3></div>
             </div> 
             <div id='btn-container'>
-            <button id='proceed'>proceed</button>
+            <button id='proceed'>Proceed</button>
             </div>
         </div>
     );
