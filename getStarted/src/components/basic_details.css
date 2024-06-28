@@ -120,18 +120,27 @@
 }
 
 @media (max-width:760px) {
+    #detail-container{
+        align-self: center;
+        margin-left: 20px;
+    }
     .detail-sections{
         display: flex;
         flex-direction: column;
         margin-left: 0px;
     }
 
-    #btn-box p{
+    #btn-box{
+        width: 40%;
         align-self: center;
     }
 
     #download{
         width:auto;
+        align-self: center;
+    }
+
+    .detail-card{
         align-self: center;
     }
 }

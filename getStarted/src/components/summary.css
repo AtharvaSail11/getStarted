@@ -70,3 +70,11 @@
 #proceed:hover{
     transform: scale(1.05);
 }
+
+
+@media (max-width:760px){
+    #summary-container{
+        align-self: center;
+        margin-left: 25px;
+    }
+}

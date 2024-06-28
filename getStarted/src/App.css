@@ -82,7 +82,6 @@ nav{
     align-items: center;
     border-radius: 15px;
     margin-left: 50px;
-    margin-right: 50px;
 }
 
 #logo-item{
@@ -175,4 +174,8 @@ nav{
   #section3{
     margin-left: 0px;
   }
+
+  #logo-box{
+    margin-left: 0px;
+}
 }

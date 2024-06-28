@@ -82,3 +82,9 @@
 .active{
     border-bottom: 2px solid blue;
 }
+
+@media (max-width:630px) {
+    .rating-container{
+        left:0px;
+    }
+}
