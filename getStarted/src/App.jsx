@@ -3,7 +3,7 @@ import Rating_box from './components/rating_box'
 import Basic_details from './components/basic_details'
 import bizowl_logo from './components/assets/bizowl_logo.png'
 import './App.css'
-import call_logo from './components/assets/Vector-1.png'
+import call_logo from './components/assets/phone-icon.png'
 
 function App() {
 

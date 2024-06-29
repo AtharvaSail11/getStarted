@@ -14,20 +14,25 @@ const Basic_details = () => {
         <div id='detail-container'>
             <h4>Basic Details</h4>
             <div className='detail-sections'>
-                <div className='detail-content'>
+                <div className="detail-section">
+                <div className='detail-content no-marginTop'>
                     <div className='detail-heading'>
                         <div className='symbol'><img className='image' src={money} /></div>
                         <div className='heading'><p>Price</p></div>
                     </div>
                     <p className='detail-text'>22,400</p>
                 </div>
-                <div className='detail-content'>
+                <div className='detail-content no-marginTop'>
                     <div className='detail-heading'>
                         <div className='symbol'><img className='image' src={calendar} /></div>
                         <div className='heading'><p>Start date</p></div>
                     </div>
                     <p className='detail-text'>24 Feb 2024</p>
                 </div>
+                </div>
+                
+
+                <div className="detail-section">
                 <div className='detail-content'>
                     <div className='detail-heading'>
                         <div className='symbol'><img className='image' src={service} /></div>
@@ -42,6 +47,10 @@ const Basic_details = () => {
                     </div>
                     <p className='detail-text'>24 Jan 2024 to 24 Feb 2024</p>
                 </div>
+                </div>
+                
+
+                <div className="detail-section">
                 <div className='detail-content'>
                     <div className='detail-heading'>
                         <div className='symbol'><img className='image' src={communication} /></div>
@@ -56,6 +65,10 @@ const Basic_details = () => {
                     </div>
                     <p className='detail-text'>7 Years</p>
                 </div>
+                </div>
+                
+
+                <div className="detail-section">
                 <div className='detail-content full-width'>
                     <div className='detail-heading'>
                         <div className='symbol'><img className='image' src={ratio} /></div>
@@ -63,6 +76,9 @@ const Basic_details = () => {
                     </div>
                     <p className='detail-text'>50-20-30</p>
                 </div>
+                </div>
+
+                <div className="detail-section">
                 <div className='detail-content full-width'>
                     <div className='detail-heading'>
                         <div className='symbol'><img className='image' src={features} /></div>
@@ -75,6 +91,8 @@ const Basic_details = () => {
                         <p>Post service</p>
                     </div>
                 </div>
+                </div>
+               
 
                 <div className='detail-content full-width' id='detail'>
                     <div className='detail-heading'>

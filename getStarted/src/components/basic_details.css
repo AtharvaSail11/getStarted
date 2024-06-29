@@ -11,8 +11,14 @@
 }
 
 .detail-sections{
+    display: flex;
+    flex-direction: column;
+}
+
+.detail-section{
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: 50% 50%;
+    box-shadow: 0 4px 2px -2px rgba(0, 0, 0, 0.2); 
     row-gap: 10px;
     height: auto;
     width:95%;
@@ -25,9 +31,13 @@
 
 .detail-content{
     display:flex;
+    margin-top: 15px;
     height: auto;
-    border-bottom:1px solid rgb(153, 151, 151);
     flex-direction: column;
+}
+
+.no-marginTop{
+    margin-top: 0px;
 }
 
 .detail-content p{
@@ -122,12 +132,19 @@
 @media (max-width:760px) {
     #detail-container{
         align-self: center;
+        position: relative;
         margin-left: 20px;
+        bottom: 60px;
     }
-    .detail-sections{
+    .detail-section{
         display: flex;
         flex-direction: column;
+        box-shadow: none;
         margin-left: 0px;
+    }
+
+    .detail-content{
+        box-shadow: 0 4px 2px -2px rgba(0, 0, 0, 0.2); 
     }
 
     #btn-box{
