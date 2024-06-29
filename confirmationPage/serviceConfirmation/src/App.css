@@ -1,0 +1,12 @@
+.app{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: 98.5vw;
+}
+
+.section{
+    height: auto;
+    align-self: center;
+    width: 80%;
+}

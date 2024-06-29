@@ -1,0 +1,52 @@
+.nav{
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: space-between;
+    height:auto;
+    width:100%;
+    box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.75);
+  }
+  
+  #logo{
+    position: relative;
+    height: auto;
+    width:auto;
+    left: 40px;
+  }
+  
+  #logo-text{
+    height: 28px;
+    width: 150px;
+  }
+  
+  #logo h2{
+    margin: auto;
+  }
+  #need-help{
+    display: flex;
+    align-items: center;
+    position: relative;
+    height: auto;
+    width:auto;
+    right: 20px;
+    color: #407BFF;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .call-logo{
+    background: linear-gradient(to bottom, #acc3f5 0%, white 100%);
+    box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.75);
+    height: 30px;
+    width: 30px;
+    border-radius: 30px;
+    margin-right: 5px;
+  }
+  
+  .call-logo img{
+    margin-top: 5px;
+    margin-left: 5px;
+    height: 70%;
+    width: 70%;
+  }

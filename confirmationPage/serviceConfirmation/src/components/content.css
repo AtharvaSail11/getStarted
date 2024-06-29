@@ -1,0 +1,167 @@
+.content{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    margin-top: 40px;
+    border-radius: 5px;
+    box-shadow: 0px 4px 3px 0px rgba(0,0,0,0.75);
+    margin-bottom: 20px;
+}
+
+#Heading{
+    display: flex;
+    align-items: center;
+    height: auto;
+    width: auto;
+}
+
+#green-tick{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    margin-left:10%;
+    width:40px;
+    background-color:#03CEA1;
+    border-radius: 30px;
+}
+
+#green-tick img{
+    height: 90%;
+    width: 90%;
+}
+
+#Heading p{
+    font-size: 30px;
+    font-weight: 600;
+    color: #03CEA1;
+    margin-left: 10px;
+}
+
+#image-box{
+    height: 50%;
+    width: 50%;
+    align-self: center;
+}
+
+#image1{
+    height: 100%;
+    width: 100%;
+}
+
+#big-text{
+    height: auto;
+    width: 65%;
+    align-self: center;
+    text-align: center;
+}
+
+#big-text p{
+    font-size: 30px;
+    font-weight: 600;
+    color: #1B2559;
+    margin: 5px;
+    margin-bottom: 0px;
+}
+
+.card-content p{
+    margin-left: 2%;
+    width: 65%;
+}
+
+.card-content p span{
+    color: #407BFF;
+}
+
+#big-text p span{
+    color: #407BFF;
+}
+
+#small-text{
+    height: auto;
+    width: 50%;
+    color: #1B2559;
+    align-self: center;
+    text-align: center;
+}
+
+#small-text p{
+    margin-top: 0px;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.card{
+    display: flex;
+    align-self: center;
+    align-items: center;
+    height: auto;
+    font-weight: 600;
+    border-radius: 10px;
+    background-image: linear-gradient(90deg,#e5ecff,#f4f5f6);
+    box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.75);
+    width: 90%;
+    color: #1B2559;
+}
+
+#card1{
+    margin-top: 10%;
+}
+
+#card2{
+    margin-top: 5%;
+    margin-bottom: 30%;
+}
+
+.card-text{
+    height: auto;
+    width: auto;
+    margin-left: 5%;
+}
+
+
+#cardText1{
+    font-size: 18px;
+    margin-bottom: 0px;
+}
+
+#cardText2{
+    font-size: 14px;
+    color:#666a7e;
+    margin-top: 0px;
+}
+
+#image2{
+    height: auto;
+    margin-left: 5%;
+}
+
+#image2 img{
+    height: 80px;
+    width: 90px;
+}
+
+.phone-no{
+    display: flex;
+    align-items: center;
+    height: auto;
+    width: auto;
+    margin-left: 35%;
+}
+
+.phone-no div{
+    height: 20px;
+    width: 20px;
+    margin-right: 5px;
+}
+
+.phone-no div img{
+    height: 100%;
+    width: 100%;
+}
+
+@media (max-width: 620px){
+    #card2{
+        flex-direction: column;
+    }
+}
