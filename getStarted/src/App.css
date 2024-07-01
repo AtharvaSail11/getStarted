@@ -148,6 +148,8 @@ nav{
     top: 75px;
     order: 2;
     margin-left: 0px;
+    margin-bottom: 10%;
+    margin-top:5%;
     width: 90%;
   }
 
@@ -155,7 +157,7 @@ nav{
     position: relative;
     order: 3;
     align-self: center;
-    margin-top: 80px;
+    margin-bottom: 10%;
   }
 }
 

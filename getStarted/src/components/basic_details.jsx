@@ -98,10 +98,10 @@ const Basic_details = () => {
                 <div className='detail-content full-width' id='detail'>
                     <div className='detail-heading'>
                         <div className='symbol'><img className='image' src={report} /></div>
-                        <div className='heading'><p>All details</p></div>
+                        <div className='heading'><p id='All-details'>All Details</p></div>
                     </div>
                     <div className='details'>
-                        <div className='detail-card'><p>We will give you the support whenever it is needed even after 30 days</p></div>
+                        <div className='detail-card'><p>We will give you the support whenever it is needed to you even after 30 days after the delivery</p></div>
                         <div className='detail-card'><p>We will give you the support whenever it is needed even after 30 days</p></div>
                         <div className='detail-card'><p>We will give you the support whenever it is needed even after 30 days</p></div>
                         <div className='detail-card'><p>We will give you the support whenever it is needed even after 30 days</p></div>
