@@ -8,6 +8,7 @@ import ratio from './assets/ratio.png'
 import timeline from './assets/refresh-time.png'
 import features from './assets/new-features.png'
 import report from './assets/report.png'
+import download_icon from './assets/line-md_download-outline.png'
 
 const Basic_details = () => {
     return (
@@ -102,10 +103,16 @@ const Basic_details = () => {
                     <div className='details'>
                         <div className='detail-card'><p>We will give you the support whenever it is needed even after 30 days</p></div>
                         <div className='detail-card'><p>We will give you the support whenever it is needed even after 30 days</p></div>
+                        <div className='detail-card'><p>We will give you the support whenever it is needed even after 30 days</p></div>
+                        <div className='detail-card'><p>We will give you the support whenever it is needed even after 30 days</p></div>
+                        <div className='detail-card'><p>We will give you the support whenever it is needed even after 30 days</p></div>
+                        <div className='detail-card'><p>We will give you the support whenever it is needed even after 30 days</p></div>
+                        <div className='detail-card'><p>We will give you the support whenever it is needed even after 30 days</p></div>
+                        <div className='detail-card'><p>We will give you the support whenever it is needed even after 30 days</p></div>
                     </div>
                     <div id='btn-box'>
                         <p>Download/Brochure</p>
-                        <button id='download'>Download</button>
+                        <button id='download'><p>Download</p><img src={download_icon}></img></button>
                     </div>
                 </div>
             </div>
