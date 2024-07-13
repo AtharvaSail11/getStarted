@@ -21,7 +21,7 @@ function App() {
           </div>
         </nav>
 
-        <div id='content'>
+        <div className={state==="About"?"content-About":"content-Portfolio"}>
         <div className='section1'>
           <div id='logo-box'>
               <div id='logo-item'>
@@ -30,10 +30,10 @@ function App() {
           </div>
           <Rating_box State={state} fn={(text)=>{setState(text)}} />
         </div>
-        <div className='section2'>
+        <div className={state==="About"?"section2":"hidden"}>
             <Pm_summary />
         </div>
-        <div className='section3-About'>
+        <div className={state==="About"?"section3-About":"section3-Portfolio"}>
             <Basic_details setFn={setState} />
         </div>
         </div>

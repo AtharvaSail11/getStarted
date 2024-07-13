@@ -67,10 +67,22 @@ nav{
   width: 70%;
 }
 
-#content{
+.content-About{
   display:grid;
   grid-template-columns: 70vw 30vw;
   border: 2px solid black;
+}
+
+.content-Portfolio{
+  display:flex;
+  height: auto;
+  width: 100%;
+  flex-direction: column;
+  border: 2px solid black;
+}
+
+.hidden{
+  display: none;
 }
 
 .section1{
@@ -136,10 +148,8 @@ nav{
 .section3-Portfolio{
   position: relative;
   height: auto;
-  margin-left: 20px;
   width: 95%;
-  border: 1px solid black;
-  bottom:170px;
+  border: 1px solid blue;
 }
 
 @media (max-width:1200px) {
