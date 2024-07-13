@@ -8,7 +8,7 @@ import Rating from '@mui/material/Rating';
 
 
 
-const Rating_box=()=>{
+const Rating_box=(props)=>{
     return(
         <div className='rating-container'>
             <div id='heading'><p>W<span id='x'>X</span>T</p></div>
@@ -17,8 +17,8 @@ const Rating_box=()=>{
             <div className='rating-item'><div className='icons'><img className='icon' src={call_icon} /></div><p>Call</p></div>
             <div className='rating-item'><div className='icons'><img className='icon' src={video_icon} /></div><p>Video</p></div>
             </div>
-            <div className='rating-items'><div className='header-items active'><div className='box'><img src={profile_icon} fill="red"/></div><p>About</p></div>
-            <div class='header-items'><div className='box'><img src={bag_icon}/></div><p>Portfolio</p></div>
+            <div className='rating-items'><div className={props.State==="About"?"header-items active":"header-items"} onClick={()=>props.fn("About")}><div className='box'><img src={profile_icon}/></div><p>About</p></div>
+            <div className={props.State==="Portfolio"?"header-items active":"header-items"} onClick={()=>props.fn("Portfolio")}><div className='box'><img src={bag_icon}/></div><p>Portfolio</p></div>
         </div>
         </div>
     )

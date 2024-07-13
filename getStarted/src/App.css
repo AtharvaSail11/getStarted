@@ -14,7 +14,7 @@ nav{
   align-items: center;
   justify-content: space-between;
   height:auto;
-  width:101%;
+  width:101%; 
   right: 5px;
   box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.75);
 }
@@ -70,12 +70,14 @@ nav{
 #content{
   display:grid;
   grid-template-columns: 70vw 30vw;
+  border: 2px solid black;
 }
 
-#section1{
+.section1{
   display: flex;
   margin-top: 20px;
   height: 50%;
+  border: 1px solid black;
 }
 
 #logo-box{
@@ -109,19 +111,34 @@ nav{
 }
 
 
-#section2{
+.section2{
   display: flex;
   height: auto;
   margin-top: 20px;
   width:auto;
+  border: 1px solid black;
   align-self: self-start;
 }
 
-#section3{
+.hidden{
+  display:none;
+}
+
+.section3-About{
   position: relative;
   height: auto;
   margin-left: 20px;
   width: 95%;
+  border: 1px solid black;
+  bottom:170px;
+}
+
+.section3-Portfolio{
+  position: relative;
+  height: auto;
+  margin-left: 20px;
+  width: 95%;
+  border: 1px solid black;
   bottom:170px;
 }
 
@@ -134,7 +151,7 @@ nav{
     height: auto;
   }
 
-  #section1{
+  .section1{
     display: flex;
     width:90%;
     order: 1;
@@ -142,7 +159,7 @@ nav{
     margin-top: 20px;
   }
 
-  #section3{
+  .section3{
     position: relative;
     height: auto;
     top: 75px;
@@ -153,7 +170,7 @@ nav{
     width: 90%;
   }
 
-  #section2{
+  .section2{
     position: relative;
     order: 3;
     align-self: center;
@@ -176,12 +193,12 @@ nav{
     width: 100px;
   }
 
-  #section1{
+  .section1{
     flex-direction: column;
     align-items: center;
   }
 
-  #section3{
+  .section3{
     margin-left: 0px;
   }
 

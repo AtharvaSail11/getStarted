@@ -22,18 +22,18 @@ function App() {
         </nav>
 
         <div id='content'>
-        <div id='section1'>
+        <div className='section1'>
           <div id='logo-box'>
               <div id='logo-item'>
                   <p>W<span id='X'>X</span>T</p>
               </div>
           </div>
-          <Rating_box />
+          <Rating_box State={state} fn={(text)=>{setState(text)}} />
         </div>
-        <div id='section2'>
+        <div className='section2'>
             <Pm_summary />
         </div>
-        <div id='section3'>
+        <div className='section3-About'>
             <Basic_details setFn={setState} />
         </div>
         </div>
