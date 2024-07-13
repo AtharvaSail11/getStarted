@@ -1,0 +1,168 @@
+.support-page-navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+    width: 95%;
+}
+
+.support-page-title{
+    font-size: 24px;
+    font-weight: 600;
+    color:#1B2559;
+}
+
+.support-page-searchbar{
+    display: flex;
+    align-items: center;
+    background-color: #F3F9FE;
+    height: 40px;
+    border-radius: 40px;
+    width: 200px;
+}
+
+
+
+.searchbar-icon{
+    margin-top: 5px;
+    margin-left: 10px;
+    height: auto;
+    width: auto;
+}
+
+.searchbar-icon img{
+    height: 25px;
+    width: 25px;
+}
+
+.support-page-searchbar input{
+    border: none;
+    height: 100%;
+    width: 120px;
+    margin-left: 10px;
+    background-color: transparent;
+}
+
+.support-page-searchbar input:focus{
+    outline: none;
+}
+
+.navbar-profile-section{
+    display: flex;
+    align-items: center;
+}
+
+.navbar-profile-section img{
+    height: 25px;
+    width: 25px;
+}
+
+
+.navbar-profile-div{
+    display: flex;
+    align-items: center;
+    height: auto;
+    width: auto;
+}
+
+.navbar-profile-div p:nth-child(1){
+   font-weight: 600;
+   font-size: 18px;
+   margin-top: 1px;
+   margin-bottom: 1px;
+   color: black;
+}
+
+.navbar-profile-div p:nth-child(2){
+    font-weight: 600;
+    font-size: 18px;
+   margin-top: 1px;
+   margin-bottom: 1px;
+    color: #1B2559;
+ }
+
+.navbar-profile-icon{
+    height: 50px;
+    width: 50px;
+    margin-right: 5px;
+    border-radius: 100%;
+}
+
+.navbar-profile-icon img{
+    height: 100%;
+    width: 100%;
+}
+
+.navbar-profile-notification{
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+@media (max-width:590px){
+
+    .navbar-profile-section{
+        margin-right: 10px;
+    }
+
+    .support-page-title{
+        font-size: 14px;
+    }
+
+    .navbar-profile-section img{
+        height: 15px;
+        width: 15px;
+    }
+
+    .navbar-profile-icon{
+        height: 30px;
+        width: 30px;
+        border-radius: 100%;
+    }
+
+    .support-page-searchbar{
+        display: flex;
+        align-items: center;
+        background-color: #F3F9FE;
+        height: 30px;
+        border-radius: 40px;
+        width: 150px;
+    }
+
+    .searchbar-icon img{
+        height: 20px;
+        width: 20px;
+    }
+    
+    .support-page-searchbar input{
+        border: none;
+        height: 80%;
+        width: 80px;
+        margin-left: 10px;
+        background-color: transparent;
+    }
+
+    .navbar-profile-icon img{
+        height: 100%;
+        width: 100%;
+    }
+
+    .navbar-profile-div p:nth-child(1){
+        font-size: 12px;
+     }
+     
+     .navbar-profile-div p:nth-child(2){
+         font-size: 12px;
+      }
+    
+}
+
+@media (max-width:390px) {
+    .support-page-searchbar{
+        width: 120px;
+    }
+
+    .navbar-profile-notification{
+        margin-left: 2px;
+    }
+    
+}

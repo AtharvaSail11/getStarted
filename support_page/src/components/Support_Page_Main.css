@@ -1,0 +1,144 @@
+.support-page-main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-self: center;
+    height: auto;
+    width: 90%;
+    margin-bottom: 15px;
+    box-shadow: 0px 4px 3px 0px rgba(0,0,0,0.75);
+    border-radius: 10px;
+}
+
+.support-page-main-img{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    background-color: #D7E9FD;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    height: 500px;
+    width: 100%;
+}
+
+.support-page-main-img img{
+    display: flex;
+    height: 100%;
+    width: auto;
+}
+
+.support-page-main-heading1{
+    font-size: 40px;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 8px;
+    font-weight: 800;
+    color: black;
+}
+
+.support-page-main-heading1 p{
+    margin: 1px;
+}
+
+.support-page-main-heading2{
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 32px;
+    width: 80%;
+    font-size: 24px;
+}
+
+.support-page-main-heading2 p{
+    margin: 1px;
+}
+
+.support-page-cards{
+    display: flex;
+    justify-content: space-around;
+    height: auto;
+    width: 100%;
+    margin-bottom: 10%;
+}
+
+.support-page-cards-sections{
+    display: flex;
+    justify-content: space-around;
+    height: auto;
+    width: 50%;
+}
+
+.support-page-main-card{
+    height: auto;
+    width: 250px;
+}
+
+@media (max-width:1260px){
+    .support-page-cards-sections{
+        width: 80%;
+        margin-bottom: 20px;
+    }
+
+    .support-page-cards{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (max-width:980px){
+    .support-page-main-img{
+        height: 300px;
+        width: 100%;
+    }
+
+    .support-page-main-heading1{
+        font-size: 30px;
+    }
+
+    .support-page-main-heading2{
+        font-size: 18px;
+    }
+    .support-page-main-card{
+        height: auto;
+        width: 180px;
+    }
+}
+
+@media (max-width:680px){
+    .support-page-cards-sections{
+        margin-bottom: 0px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .support-page-main-card{
+        margin-top: 10px;
+        height: auto;
+        width: 180px;
+    }
+}
+
+@media (max-width:590px){
+    .support-page-main-img{
+        height: 200px;
+        width: 100%;
+    }
+
+    .support-page-main-heading1{
+        font-size: 30px;
+    }
+
+    .support-page-main-heading2{
+        font-size: 15px;
+    }
+}
+
+@media (max-width:415px){
+
+    .support-page-main-heading1{
+        font-size: 25px;
+    }
+
+    .support-page-main-heading2{
+        font-size: 12px;
+    }
+}

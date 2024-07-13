@@ -34,7 +34,7 @@ function App() {
             <Pm_summary />
         </div>
         <div className={state==="About"?"section3-About":"section3-Portfolio"}>
-          {state==="About"?<Basic_details setFn={setState} />:<div><p>Portfolio Mode</p></div>}
+          {state==="About"?<Basic_details setFn={setState} />:<div className='portfolio-Items'>div</div>}
         </div>
         </div>
       </div>

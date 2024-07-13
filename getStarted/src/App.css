@@ -104,6 +104,12 @@ nav{
     margin-left: 75px;
 }
 
+.portfolio-Items{
+  width:100%;
+  height:auto;
+  border:2px solid black;
+}
+
 #logo-item{
   display: flex;
   height: 50%;
