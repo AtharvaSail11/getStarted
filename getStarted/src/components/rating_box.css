@@ -7,6 +7,13 @@
     height: 200px;
     width:350px;
 }
+
+.full-width{
+    width: 750px;
+    left: 140px;
+    
+}
+
 #x{
     color: #007CFF;
 }
@@ -47,7 +54,7 @@
 .header-items{
     display:flex;
     position: relative;
-    width: 25%;
+    width: 100px;
     color: #455A64;
     margin-left: 8px;
     right: 5px;

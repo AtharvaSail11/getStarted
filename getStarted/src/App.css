@@ -146,9 +146,8 @@ nav{
 }
 
 .section3-Portfolio{
-  position: relative;
-  height: auto;
-  width: 95%;
+  height: 200px;
+  width: 100%;
   border: 1px solid blue;
 }
 

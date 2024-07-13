@@ -10,7 +10,7 @@ import Rating from '@mui/material/Rating';
 
 const Rating_box=(props)=>{
     return(
-        <div className='rating-container'>
+        <div className={props.State==="About"?"rating-container":"rating-container full-width"}>
             <div id='heading'><p>W<span id='x'>X</span>T</p></div>
             <div className='rating-items' id='ratings'><p>Ratings</p><div id='stars'><Rating /></div></div>
             <div className='rating-items'><div className='rating-item'><div className='icons'><img className='icon' src={message_icon} /></div><p>Message</p></div>
