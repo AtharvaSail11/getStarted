@@ -1,0 +1,27 @@
+.portfolio-details{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    margin-left: 7%;
+}
+
+.experience{
+    display: flex;
+}
+
+.experience p:nth-child(2){
+    font-weight: 600;
+}
+
+.review-content{
+    display: grid;
+    grid-template-columns: 300px 300px;
+    column-gap: 10%;
+}
+
+.review-cards{
+    height: auto;
+    width: 100%;
+    margin-bottom: 50px;
+}

@@ -1,0 +1,67 @@
+.work-details{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 60%;
+}
+
+.work-title{
+    margin-top: 10px;
+    border-bottom: 1px solid black;
+}
+.work-title p{
+    margin: 0px;
+}
+
+.offered-services{
+    margin-top: 20px;
+}
+
+.offered-services p{
+    margin: 1px;
+}
+
+.service{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.service p{
+    font-weight: 600;
+    margin: 1px;
+}
+
+.expertise-details{
+    margin-top: 20px;
+}
+
+.expertise-details p{
+    margin: 1px;
+}
+
+
+.expertise p{
+    font-weight: 600;
+    margin: 1px;
+}
+
+.industries{
+    margin-top: 20px;
+}
+
+.industries p{
+    margin: 1px;
+}
+
+.work-icon{
+    height: auto;
+    width: auto;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.work-icon img{
+    height: 8px;
+    width: 12px;
+}

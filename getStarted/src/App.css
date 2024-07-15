@@ -70,7 +70,6 @@ nav{
 .content-About{
   display:grid;
   grid-template-columns: 70vw 30vw;
-  border: 2px solid black;
 }
 
 .content-Portfolio{
@@ -78,7 +77,6 @@ nav{
   height: auto;
   width: 100%;
   flex-direction: column;
-  border: 2px solid black;
 }
 
 .hidden{
@@ -89,7 +87,6 @@ nav{
   display: flex;
   margin-top: 20px;
   height: 50%;
-  border: 1px solid black;
 }
 
 #logo-box{
@@ -105,9 +102,21 @@ nav{
 }
 
 .portfolio-Items{
+  display: flex;
   width:100%;
   height:auto;
-  border:2px solid black;
+}
+
+.portfolio-item1{
+  display: flex;
+  justify-content: center;
+  width: 34%;
+  height: 400px;
+}
+
+.portfolio-item2{
+  width: 60%;
+  height: auto;
 }
 
 #logo-item{
@@ -121,7 +130,6 @@ nav{
   align-items: center;
   border-radius: 15px;
   background-color: #F7FCFB;
-  border:2px solid #007CFF;
 }
 
 #X{
@@ -134,7 +142,6 @@ nav{
   height: auto;
   margin-top: 20px;
   width:auto;
-  border: 1px solid black;
   align-self: self-start;
 }
 
@@ -147,18 +154,16 @@ nav{
   height: auto;
   margin-left: 20px;
   width: 95%;
-  border: 1px solid black;
   bottom:170px;
 }
 
 .section3-Portfolio{
-  height: 200px;
+  height: auto;
   width: 100%;
-  border: 1px solid blue;
 }
 
 @media (max-width:1200px) {
-  #content{
+  .content-About{
     display:flex;
     flex-direction: column;
     align-items: center;
@@ -174,11 +179,22 @@ nav{
     margin-top: 20px;
   }
 
-  .section3{
+  .section3-About{
     position: relative;
     height: auto;
     top: 75px;
     order: 2;
+    margin-left: 0px;
+    margin-bottom: 10%;
+    margin-top:5%;
+    width: 90%;
+  }
+
+  .section3-Portfolio{
+    position: relative;
+    height: auto;
+    order: 2;
+    top: 75px;
     margin-left: 0px;
     margin-bottom: 10%;
     margin-top:5%;
@@ -191,35 +207,4 @@ nav{
     align-self: center;
     margin-bottom: 10%;
   }
-}
-
-@media (max-width:630px) {
-
-  #logo-box{
-    height: 150px;
-    width:300px;
-}
-
-  #logo{
-    margin-left: 20px;
-  }
-  #logo-text{
-    height: 20px;
-    width: 100px;
-  }
-
-  .section1{
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .section3{
-    margin-left: 0px;
-  }
-
-
-
-  #logo-box{
-    margin-left: 0px;
-}
 }

@@ -3,7 +3,7 @@
     flex-direction: column;
     height: 100%;
     width: 100%;
-    background-image: linear-gradient(#D7E9FD,white);
+    background-image: linear-gradient(#D7E9FD,#f4f5f6);
     align-items: center;
     border-radius: 20px;
     width: 100%;
@@ -12,8 +12,7 @@
 .card-div1{
     display: flex;
     height: auto;
-    width: 80%;
-    border: 1px solid blue;
+    width: 90%;
 }
 
 .card-div1 p{
@@ -23,8 +22,7 @@
 .card-div2{
     display: flex;
     height: auto;
-    width: 80%;
-    border: 1px solid blue;
+    width: 90%;
 }
 
 .card-div2 p{
@@ -36,16 +34,14 @@
 .card-div3{
     display: flex;
     height: auto;
-    width: 80%;
-    border: 1px solid blue;
+    width: 90%;
 }
 
 .card-div4{
     display: flex;
     justify-content: end;
     height: auto;
-    width: 80%;
-    border: 1px solid blue;
+    width: 90%;
 }
 
 .card-div4 img{
@@ -57,15 +53,19 @@
     display: flex;
     align-items: center;
     height: auto;
-    width: 80%;
+    width: 90%;
     font-size: 12px;
-    border: 1px solid blue;
 }
 
 .profile-icon{
     height: 30px;
     width: 30px;
-    border: 1px solid blue;
+    margin-right: 5px;
     border-radius: 100%;
+}
+
+.profile-icon img{
+    height: 30px;
+    width: 30px;
 }
 

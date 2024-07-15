@@ -1,6 +1,7 @@
 import './review_card.css'
 import inverted_comma from './assets/inverted-comma.png'
 import Rating from '@mui/material/Rating';
+import image1 from './assets/Ellipse_660.png'
 
 const Review_card=()=>{
 
@@ -11,7 +12,7 @@ const Review_card=()=>{
         <div className='card-div3'><Rating sx={{width:1/4}}/></div>
         <div className='card-div4'><img src={inverted_comma}/></div>
         <div className='card-div5'>
-            <div className='profile-icon'></div>
+            <div className='profile-icon'><img src={image1}/></div>
             <div className='profile-name'>First Name</div>
         </div>
     </div>);

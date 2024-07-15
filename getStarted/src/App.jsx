@@ -5,6 +5,8 @@ import Basic_details from './components/basic_details'
 import bizowl_logo from './components/assets/bizowl_logo.png'
 import './App.css'
 import call_logo from './components/assets/phone-icon.png'
+import Portfolio_Details from './components/Portfolio_Details';
+import Work_Details from './components/work_details';
 
 function App() {
 
@@ -34,7 +36,10 @@ function App() {
             <Pm_summary />
         </div>
         <div className={state==="About"?"section3-About":"section3-Portfolio"}>
-          {state==="About"?<Basic_details setFn={setState} />:<div className='portfolio-Items'>div</div>}
+          {state==="About"?<Basic_details setFn={setState} />:<div className='portfolio-Items'>
+            <div className='portfolio-item1'><Work_Details/></div>
+            <div className="portfolio-item2"><Portfolio_Details/></div>                  
+            </div>}
         </div>
         </div>
       </div>
