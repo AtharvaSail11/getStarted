@@ -1,0 +1,64 @@
+.Bank-Details-Section{
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+
+.bank-details-box{
+    height: 100%;
+    width: 90%;
+}
+
+.bank-detail-heading{
+    height: auto;
+    width: 100%;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.bank-detail-div{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    font-size: 14px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.bank-detail-div input{
+    background-color: transparent;
+    border: 1px solid black;
+    border-radius: 5px;
+    height: 40px;
+    width: 75%;
+}
+
+.confirm-btn-container{
+    display: flex;
+    justify-content: end;
+    margin-top: 25px;
+    height: auto;
+    width: 100%;
+}
+
+.confirm-btn-container button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    color: white;
+    background-color: #407BFF;
+    height: 35px;
+    width: 40%;
+}
+
+.extra-info{
+    height: auto;
+    width: 100%;
+    color: #407BFF;
+    margin-top: 20px;
+    font-size: 8px;
+}
+

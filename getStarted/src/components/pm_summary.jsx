@@ -13,7 +13,7 @@ const Pm_summary=()=>{
             <div className='summary-item2'><p>₹4,618/-</p></div> 
             </div>
             <div className='summary-content'>
-            <div className='summary-item1'><p >Payment Structure</p></div>
+            <div className='summary-item1'><p>Payment Structure</p></div>
             <div className='summary-item2'><p>50-10-40</p></div>
             </div>
             <div className='summary-content'>

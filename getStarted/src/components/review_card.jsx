@@ -3,6 +3,7 @@ import inverted_comma from './assets/inverted-comma.png'
 import Rating from '@mui/material/Rating';
 import image1 from './assets/Ellipse_660.png'
 
+
 const Review_card=()=>{
 
     return(

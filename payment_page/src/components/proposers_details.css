@@ -1,0 +1,57 @@
+#proposerCard{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    box-shadow: 0px 4px 3px 0px rgba(0,0,0,0.75);
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+
+#proposer-heading{
+    display: flex;
+}
+
+#proposer-heading p{
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-bottom: 5px;
+}
+
+#proposer-email{
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+#proposer-email p{
+    margin:2px;
+}
+
+
+#proposer-phone{
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+#proposer-phone p{
+    margin: 2px;
+}
+
+.card-icons{
+    height: 20px;
+    width: 20px;
+    margin-top: 0px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.card-icons img{
+    height: 100%;
+    width: 100%;
+}
