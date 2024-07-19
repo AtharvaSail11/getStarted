@@ -116,5 +116,9 @@
     .full-width{
         width:350px;
     }
+
+    .rating-container{
+        right: 300px;
+    }
 }
 
