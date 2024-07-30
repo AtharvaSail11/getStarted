@@ -2,7 +2,6 @@
     display: flex;
     position: relative;
     flex-direction: column;
-    border-bottom: 2px solid grey;
     left: 140px;
     height: 200px;
     width:350px;
