@@ -2,8 +2,6 @@ import './rating_box.css'
 import message_icon from './assets/Vector-3.png'
 import call_icon from './assets/Vector-1.png'
 import video_icon from './assets/Vector.png'
-import profile_icon from './assets/iconamoon_profile-bold.svg'
-import bag_icon from './assets/Vector.svg'
 import Rating from '@mui/material/Rating';
 
 

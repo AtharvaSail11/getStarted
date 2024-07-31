@@ -5,8 +5,6 @@ import All_features from './components/all_features';
 import bizowl_logo from './components/assets/bizowl_logo.png'
 import './App.css'
 import call_logo from './components/assets/phone-icon.png'
-import Portfolio_Details from './components/Portfolio_Details';
-import Work_Details from './components/work_details';
 
 function App() {
 
