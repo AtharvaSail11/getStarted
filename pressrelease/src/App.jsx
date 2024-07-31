@@ -23,23 +23,20 @@ function App() {
           </div>
         </nav>
 
-        <div className={state==="About"?"content-About":"content-Portfolio"}>
+        <div className="content-About">
         <div className='section1'>
           <div id='logo-box'>
               <div id='logo-item'>
                   <p>W<span id='X'>X</span>T</p>
               </div>
           </div>
-          <Rating_box State={state} fn={(text)=>{setState(text)}} />
+          <Rating_box/>
         </div>
-        <div className={state==="About"?"section2":"hidden"}>
+        <div className="section2">
             <Pm_summary />
         </div>
-        <div className={state==="About"?"section3-About":"section3-Portfolio"}>
-          {state==="About"?<All_features setFn={setState} />:<div className='portfolio-Items'>
-            <div className='portfolio-item1'><Work_Details/></div>
-            <div className="portfolio-item2"><Portfolio_Details/></div>                  
-            </div>}
+        <div className="section3-About">
+         <All_features/>
         </div>
         </div>
       </div>
