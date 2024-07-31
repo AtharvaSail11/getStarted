@@ -103,9 +103,6 @@
     width: 60%;
 }
 
-.active{
-    border-bottom: 3px solid #007CFF;
-}
 
 @media (max-width:1200px){
     .rating-container{

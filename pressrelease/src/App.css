@@ -72,16 +72,6 @@ nav{
   grid-template-columns: 70vw 30vw;
 }
 
-.content-Portfolio{
-  display:flex;
-  height: auto;
-  width: 100%;
-  flex-direction: column;
-}
-
-.hidden{
-  display: none;
-}
 
 .section1{
   display: flex;
@@ -101,23 +91,6 @@ nav{
     margin-left: 75px;
 }
 
-.portfolio-Items{
-  display: flex;
-  width:100%;
-  height:auto;
-}
-
-.portfolio-item1{
-  display: flex;
-  justify-content: center;
-  width: 34%;
-  height: 400px;
-}
-
-.portfolio-item2{
-  width: 60%;
-  height: auto;
-}
 
 #logo-item{
   display: flex;
@@ -145,9 +118,7 @@ nav{
   align-self: self-start;
 }
 
-.hidden{
-  display:none;
-}
+
 
 .section3-About{
   position: relative;
@@ -157,10 +128,6 @@ nav{
   bottom:80px;
 }
 
-.section3-Portfolio{
-  height: auto;
-  width: 100%;
-}
 
 @media (max-width:1200px) {
   .content-About{
@@ -185,17 +152,6 @@ nav{
     top: 75px;
     justify-content: center;
     order: 2;
-    margin-bottom: 10%;
-    margin-top:5%;
-    width: 90%;
-  }
-
-  .section3-Portfolio{
-    position: relative;
-    height: auto;
-    order: 2;
-    top: 75px;
-    margin-left: 0px;
     margin-bottom: 10%;
     margin-top:5%;
     width: 90%;
@@ -234,27 +190,7 @@ nav{
   width: 100px;
 }
 
-/*
-.portfolio-Items{
- flex-direction: column;
-}
- */
-
-
-
-.portfolio-item1{
-  width: 100%;
-  height: auto;
-}
-
-.portfolio-item2{
-  width: 80%;
-  height: auto;
-}
-
 .section2{
   top: 40px;
 }
-
-
 }
