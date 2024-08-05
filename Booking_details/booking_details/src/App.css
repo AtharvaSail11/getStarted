@@ -1,0 +1,46 @@
+.app{
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 98.5vw;
+}
+
+#navBar{
+  height: auto;
+  width: auto;
+  flex-basis: 5%;
+}
+
+#head-section{
+  display: flex;
+  align-items: end;
+  flex-basis: 10%;
+}
+
+#head-section p{
+  margin-left: 12%;
+}
+
+.sections{
+  display: flex;
+  height: auto;
+  flex-basis: 80%;
+  align-self: center;
+  width: 100%;
+}
+
+.booking-section1{
+  display: flex;
+  justify-content: center;
+  height: auto;
+  width: 60%;
+}
+
+
+.booking-section2{
+  display: flex;
+  height: auto;
+  width: max-content;
+
+}
+
